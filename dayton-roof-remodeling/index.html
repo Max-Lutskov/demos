@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta name="leadforge-build" content="9f5c4693866f">
+<meta name="leadforge-build" content="74b33425924a">
 <title>Dayton Roof &amp; Remodeling LLC — Trusted since 1947</title>
 <meta name="description" content="Dayton Roof &amp; Remodeling: roofing, siding, gutters and windows across Dayton and the Miami Valley since 1947. BBB A+ rated. Free on-site estimates.">
 <link rel="icon" href="assets/logo.webp">
@@ -67,7 +67,8 @@ section{padding:clamp(64px,9vw,104px) 0}
 .chips span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
 .trust{display:flex;flex-wrap:wrap;gap:12px 32px;padding:22px 0;border-bottom:1px solid var(--line);font-weight:700}
 .trust span::before{content:"\2713";color:var(--brand);margin-right:8px;font-weight:900}
-.gallery{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.gallery{display:grid;gap:12px;grid-template-columns:repeat(3,1fr)}
+@media(max-width:640px){.gallery{grid-template-columns:repeat(2,1fr)}.gallery img:nth-child(n+5){display:none}}
 .gallery img{border-radius:12px;aspect-ratio:4/3;object-fit:cover;width:100%}
 /* forms */
 .formbox{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:clamp(20px,3vw,32px);box-shadow:0 20px 50px -30px rgba(14,23,38,.35)}
